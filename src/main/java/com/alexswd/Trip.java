@@ -17,4 +17,12 @@ public class Trip {
     public void setStarted(boolean started) {
         this.started = started;
     }
+
+    public int getFromFloor() {
+        return fromFloor;
+    }
+
+    public int getToFloor() {
+        return toFloor;
+    }
 }

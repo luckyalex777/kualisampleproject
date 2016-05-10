@@ -1,4 +1,7 @@
 package com.alexswd;
 
-public class Moving {
+public enum Moving {
+    STOPPED,
+    UP,
+    DOWN
 }
